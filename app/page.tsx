@@ -355,7 +355,7 @@ export default function Home() {
 
       </div>
 
-<div clasName="w-full h-[10rem] block md:hidden">
+<div clasName="w-full h-[28rem] block md:hidden">
 
 </div>
 
