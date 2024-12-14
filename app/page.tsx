@@ -200,7 +200,7 @@ export default function Home() {
         {/* Project showcase section */}
     <div 
       ref={projectSectionRef}
-      className="min-h-screen md:pb-0 pb-6 w-full pt-[6rem] bg-gray-100 absolute top-0 left-0 noise"
+      className="min-h-screen h-full md:pb-0 pb-6 w-full pt-[6rem] bg-gray-100 absolute top-0 left-0 noise"
     >
       <div className="h-full w-full bg-gray-100 noise flex flex-col items-center justify-center relative space-y-8 px-4">
 
