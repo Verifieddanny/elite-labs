@@ -303,6 +303,8 @@ export default function Home() {
       </div>
       </div>
     </div>
+
+
     </div>
 )}
 
@@ -320,24 +322,39 @@ export default function Home() {
             
             
             `}</style>
+
+<div ref={footerRef} className="h-full bg-[rgb(187, 187, 207)] noise text-black p-6 w-full mt-[8rem]  select-none">
+  <h3 className="text-center text-[3rem] font-bold">Reach us on</h3>
+
+<div className="w-full flex justify-center gap-8 items-center cursor-default">
+
+<Link 
+  href="https://x.com/teamsuielite"
+  className="cursor-pointer"
+>
+  
+    <svg role="img" className="w-8 h-8" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <title>X</title>
+      <path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/>
+    </svg>
+
+</Link>
+
+<Link 
+  href="mailto:team.suielite@gmail.com"
+  className="cursor-pointer"
+>
+  
+    <Mail className="w-8 h-8" />
+
+</Link>
+</div>
+      </div>
+
             </div>
 </div>
 
 
-<footer ref={footerRef} className="h-full text-black p-6 w-full mt-[8rem]">
-  <h3 className="text-center text-[3rem] font-bold">Reach us on</h3>
-
-<div className="w-full flex justify-center gap-8 items-center">
-
-      <Link href="https://x.com/teamsuielite">
-          <svg role="img" className="w-8 h-8" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>X</title><path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/></svg>
-          </Link>
-
-          <Link href="mailto:team.suielite@gmail.com">
-            <Mail className="w-8 h-8" />
-          </Link>
-</div>
-      </footer>
 
       </div>
 
