@@ -102,9 +102,6 @@ export default function Home() {
       "+=0.5"
     );
 
-    tl.to(footerRef.current, {
-      opacity: 1
-    }, "+=0.5")
 
     return () => {
       ScrollTrigger.getAll().forEach(trigger => trigger.kill());
