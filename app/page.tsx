@@ -320,8 +320,6 @@ export default function Home() {
             
             `}</style>
 
-
-            </div>
 <div ref={footerRef} className="h-full bg-[rgb(187, 187, 207)] noise text-black p-6 w-full mt-[8rem]  select-none">
   <h3 className="text-center text-[3rem] font-bold">Reach us on</h3>
 
@@ -349,6 +347,8 @@ export default function Home() {
 </Link>
 </div>
       </div>
+
+            </div>
 </div>
 
 
