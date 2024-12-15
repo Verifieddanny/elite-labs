@@ -64,7 +64,7 @@ export default function Home() {
 
     tl.to(labsRef.current, {
       scale: 50,
-      x: -2200,
+      x: -1700,
       y: 0,
       opacity: 1,
       duration: 1.5,
